@@ -1,0 +1,13 @@
+커널 : 하드웨어와 소프트웨어를 관리하는 운영체제의 핵심 부분
+쉘 : 사용자가 입력한 명령어를 해석해 커널에 전달하는 역할
+
+pwd = print working directory
+ls = list
+cd = change directory
+mkdir = make directory
+touch
+rm = remove directory
+rmdir = remove directory
+man = manual
+
+
