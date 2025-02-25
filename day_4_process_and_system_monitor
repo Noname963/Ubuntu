@@ -1,0 +1,35 @@
+1. what is a process
+    process : program in process
+    PID : process number
+    Foreground : process in Termial
+    Background : process in background still runs after closing termial
+
+2. how to see process
+    code
+        ps aux # list all the process
+        ps -ef # list all the process including system process
+        ps aux | grep firefox # searching firefox process
+
+    code
+        top # Real-time Process Monitoring
+        htop # Real-time Process Monitoring with UI
+
+3. exiting process
+    code
+        kill PID # exiting PID
+        kill -9 PID # exiting PID with force
+        killall chrome # exiting process with the same name
+
+4. background process
+    code
+        jobs # list background process
+        fg %1 # moving background process no.1 to foreground
+        bg %1 # execute process in background
+        nohup my_script.sh & # maintain process after exiting terminal
+
+5. system resource monitoring
+    code
+        uptime # system time and log
+        free -h # check memory in human eyes
+        df -h # check disk memory in human eyes
+        du -sh /var/log # check memory of /var/log
