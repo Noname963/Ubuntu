@@ -1,0 +1,36 @@
+1. what is user and group
+    user : someone who is using linux
+    group : a lot of user
+
+2. seeing user
+    whoami # user who is logged-in
+    id # user and group
+    who # user who is logged into current system
+    w # user who is logged-in and process
+
+3. managing user
+    sudo useradd -m newuser             # -m making home dir
+    ls /home/                           # checking home dir
+    sudo passwd newuser                 # password for newuser
+    sudo usermod -aG sudo newuser       # adding newuser in group
+    sudo deluser newuser                # sudo deluser newuser
+    sudo deluser --remove-home newuser  # delete newuser's home dir
+
+4. managing group
+    sudo groupadd developers                # add new group
+    sudo groupdel developers                # delete group
+    sudo usermod -aG developers newuser     # add newuser to group
+    groups newuser                          # check newuser's group
+    groups                                  # check user who logged-in
+
+5. superuser
+    sudo apt update # update package
+    sudo visudo # manage sudo user
+
+6. root user
+    su newuser # change to newuser
+    su - # change to root user
+    sudo -i # using sudo to change to root cell
+
+
+

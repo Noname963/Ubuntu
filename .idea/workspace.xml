@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ebbd6c0-fec1-4320-8704-ffafc3703c71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day_4_process_and_system_monitor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_5_managing_user_and_group" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_3_managing_file_and_directory_advanced" beforeDir="false" afterPath="$PROJECT_DIR$/day_3_managing_file_and_directory_advanced" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
