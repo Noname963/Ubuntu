@@ -1,0 +1,91 @@
+1. what is packege in linux
+   packege = program + essential lib + option file
+   we can install, delete, update packege by using ATP in UBUNTU
+
+2. managing packege
+    APT : Advanced Packege Tool
+    apt update : update packege list
+    code
+        sudo gpt update # checking update file(not updating)
+
+    apt upgrade : packege upgrade
+    code
+        sudo apt upgrade -y # update all packege(-y means yes)
+        sudo apt full-upgrade -y # include kernel in update list
+        sudo apt autoremove # remove packege automatically
+
+    apt install : install package
+    code
+        sudo apt install package-name # basic form
+        sudo apt install vim curl git # install packege in once
+        sudo apt install packege-name=1.2.3 # install specific version
+
+    apt remove : delete packege
+    code
+        sudo apt remove packege-name # basic form
+        sudo apt purge packege-name # include option file
+        sudo apt autoremove # delete packege after deleting file
+
+3. managing individual packege
+    dpkg = used when installing .deb file
+    dpkg -i - .deb packege install
+    code
+        sudo dpkg -i packege.deb # basic form
+        wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        sudo dpkg -i google-chrome-stable_current_amd64.deb # download chrome
+
+    dpkg -r : remove packege
+    code
+        sudo dpkg -r package-name # basic form
+        sudo dpkg -r google-chrome-stable # remove packege
+
+4. managing Snap packege
+    Snap : new packege system
+    snap install : packege install
+    code
+        sudo snap install packege-name # basic form
+        sudo snap install packege-name --channel=beta # install specific version
+
+    snap list : check installed snap packege
+    code
+        snap list
+
+    snap remove : delete packege
+    code
+        sudo snap remove packege-name # basic form
+
+5. Flatpak : similar with snap
+
+    flatpak install : install packege
+    code
+        flatpak install flathub packege-name # basic form
+
+    flatpak list
+        code
+            flatpak list # check installed list
+
+    flatpak uninstall : delete packege
+        code
+            flatpak uninstall packege-name # basic form
+
+6. exersice
+    step 1 : install/uninstall by using APT
+    code
+        sudo apt update
+        sudo apt install htop
+        htop
+        sudo apt remove htop
+
+    step 2 : install/uninstall .deb file by using dpkg
+    code
+        wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        sudo dpkg -i google-chrome-stable_current_amd64.deb
+        google-chrome-stable
+        sudo dpkg -r google-chrome-stable
+
+    step 3 : install/uninstall by using snap
+    code
+        sudo snap install vlc
+        vlc
+        sudo snap remove vlc
+
