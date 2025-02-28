@@ -1,0 +1,96 @@
+by using Bash shell script you can make command run automatic and make it efficient
+
+1. what is shell script?
+    shell : commend and execute program by user
+    shell script : saving a lot of command in one file
+
+2. writing first shell script(.sh)
+    code
+        nano mysctipt.sh # or vim myscript.sh
+
+        #!/bin/bash # choosing which shell to use
+
+        echo "Hello this is my first shell script"
+        date
+        whoami
+
+3. run script
+    code
+        chmod +x myscript.sh # giving execute permission
+        ./myscript.sh # running file in same dir
+
+4. using variable
+    code
+        name="sik"
+        echo "Hello $name"
+
+5. user input(read)
+    #!/bin/bash
+
+    echo "name?"
+    read name
+    echo "hello $name"
+
+6. function(if)
+    code
+        #!/bin/bash
+
+        echo "enter number:"
+        read number
+
+        if[$number -gt 10]; then
+            echo "the number is bigger then 10"
+        else
+            echo "the number is smaller then 10"
+        fi
+    -eq # equal
+    -na # not equal
+    -gt # greater then
+    -lt # lass then
+    -ge # greater or equal
+    -le # less or equal
+
+7. for, while
+    code
+        #!/bin/bash
+
+        for i in 1 2 3 4 5
+        do
+            echo "number: $i"
+        done
+    ---------------------------------------
+
+        #!/bin/bash
+
+        count=1
+        while [ $count -le 5 ]
+        do
+            echo "count : $count"
+            count=$((count + 1))
+        done
+
+8. function
+    code
+        #!/bin/bash
+
+        hello(){
+            echo "Hello"
+        }
+
+        hello
+
+9. save result to file
+    ./myscript.sh > output.txt # save
+    ./myscript.sh >> output.txt # overwrite
+
+10. make script to save your day
+    code
+        #!/bin/bash
+
+        backup_dir="/home/user/backup"
+        source_dir="/home/user/Documents"
+
+        mkdir -p $backup_dir
+        cp -r $source_dir/* $backup_dir/
+
+        echo "backup complete"
