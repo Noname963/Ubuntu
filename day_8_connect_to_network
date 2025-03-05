@@ -1,1 +1,21 @@
 check network stat and remote control other server
+
+1. basic principle
+ - IP address               : device id
+ - hostname                 : computer's network name
+ - port                     : the number that service use
+ - DNS(Domain Name System)  : a system that changes domain address[ex) google.com] to IP
+
+2. check network stat
+    code
+        ip a # check network interface and ip address
+        ifconfig # old version command(check network stat)
+        ping google.com # check if network is connected / abort by ctrl + C
+        nslookup google.com # check IP address in domain
+
+3. connect network and check port
+    code
+        sudo netstat -tulnp # check open port
+
+
+
