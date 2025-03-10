@@ -1,0 +1,29 @@
+1. what is redirection
+    is changing input/output to sertan file
+    linux has STDIN/STDOUT/STDERR
+    > # make STDOUT to file
+    >> # add STDOUT to file
+    < # bring STDIN from file
+    2> # save STDERR to file
+    &> # save STDIN, STDERR in file
+
+2. what is pipe?
+    is giving sertan command's output to other command's input
+    ` # give output to other command
+    code
+        ls -l | grep ".txt" # show .txt file in current dir
+        ps aux | grep "firefox" # find firefox process
+        cat hello.txt | grep "linux" | wc -l # find the word that includes linux in hello.txt file and count it
+
+4. tee
+    code
+        ls -l | tee output.txt # save output and show in screen
+        ls -l | tee -a output.txt # add to file
+
+5. xargs
+    code
+        find . -name "*.log" | xargs rm # find .log file from current dir and delect it
+        ls -l | grep ".log" # check it is deleted
+
+
+

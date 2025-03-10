@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ebbd6c0-fec1-4320-8704-ffafc3703c71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day_8_connect_to_network.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1213" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/da" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_2_file_system_and_basic_command" beforeDir="false" afterPath="$PROJECT_DIR$/day_2_file_system_and_basic_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_3_managing_file_and_directory_advanced" beforeDir="false" afterPath="$PROJECT_DIR$/day_3_managing_file_and_directory_advanced.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_4_process_and_system_monitor" beforeDir="false" afterPath="$PROJECT_DIR$/day_4_process_and_system_monitor.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_5_managing_user_and_group" beforeDir="false" afterPath="$PROJECT_DIR$/day_5_managing_user_and_group.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_6_managing_packege" beforeDir="false" afterPath="$PROJECT_DIR$/day_6_managing_packege.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_7_shell_scrept_basic" beforeDir="false" afterPath="$PROJECT_DIR$/day_7_shell_scrept_basic.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_8_connect_to_network" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day_9_Cron_and_log_management.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tset2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_10_edit_text_file_pipe_and_redirection_txt" beforeDir="false" afterPath="$PROJECT_DIR$/day_10_edit_text_file_pipe_and_redirection_txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +48,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "2025-03-10"
   }
 }]]></component>
   <component name="SharedIndexes">
