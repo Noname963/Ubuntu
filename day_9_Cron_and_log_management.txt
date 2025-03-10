@@ -1,0 +1,41 @@
+1. what is Cron job auto
+    Cron is scheduling tasks in sertan time and execute
+    Cron Job : script or code that cron is running
+    you can make it run in sertan time
+
+2. crontab
+    code
+        crontab -e # edit cron job
+
+3. example of cron job
+    code
+        0 3 * * * sudo apt update && sudo apt upgrade -y # system update daily at 3am
+        */5 * * * * /home/user/myscript.sh # run script every 5min
+        0 9 * * 1 rm /home/user/temp/* # remove file every monday 9am
+        crontab -1 # check cronjob from user
+        crontab -r # delete cronjob
+
+4. manage system log
+    in linux every event and error is listed in log file
+    common place of log
+        /var/log/syslog # log of whole system
+        /var/lod/auth.log # user login, sudo log
+        /var/log/dmesg # system boot, hardware log
+        /var/log/kern.log # kernel log
+        /var/log/nginx/access.log # Nginx web server access log
+        /var/log/nginx/error.log # Nginx web server error log
+
+5. check log(cat, tail, grep)
+    code
+        cat /var/log/syslog # show all log file
+        tail -n 10 /var/log/syslog # show recent 10 log
+        tail -f /var/log/syslog # show log in realtime
+        grep "error" /var/log/syslog # search log
+        grep "Feb 20" /var/log/syslog # search date log
+
+6. logrotate
+    code
+        cat /etc/logrotate.conf # check setting file
+        cat /etc/logrotate.d/syslog # check setting od sertan file
+        sudo logrotate -f /etc/logrotare.conf # log manual
+

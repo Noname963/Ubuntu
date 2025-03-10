@@ -1,0 +1,58 @@
+check network stat and remote control other server
+
+1. basic principle
+ - IP address               : device id
+ - hostname                 : computer's network name
+ - port                     : the number that service use
+ - DNS(Domain Name System)  : a system that changes domain address[ex) google.com] to IP
+
+2. check network stat
+    code
+        ip a # check network interface and ip address
+        ifconfig # old version command(check network stat)
+        ping google.com # check if network is connected / abort by ctrl + C
+        nslookup google.com # check IP address in domain
+
+3. connect network and check port
+    code
+        sudo netstat -tulnp # check open port
+        ss -tulnp # short ver
+        curl -I https://www.google.com # calling web
+        wget https://example.com/file.zip # download file
+
+4. remote access
+    code
+        sudo apt update # check update
+        sudo apt install openssh-server -y
+        sudo systemctl enable ssh # service start and check stat
+        sudo systemctl start ssh
+        sudo systemctl status ssh
+        ssh username@remote-ip # connecting SSH(client)
+        sudo nano /etc/ssh/sshd_config # edit setting file
+        port 2222 # change 22 to 2222
+        sudo systemctl restart ssh # restart SSH service
+        ssh -p 2222 username@remote-ip # connect to new port
+
+5. send file in SCP
+    code
+        scp myfile.txt user@192.168.1.100:/home/user/ # send file to remote server
+        scp user@192.168.1.100:/home/user/myfile.txt . # bring file from remote server
+        scp -r myfolder user@192.168.1.100:/home/user/ # send file with option
+
+6. edit remote file
+    code
+        sudo apt install sshfs # use sshfs to mount remote file
+        mkdir ~/remote
+        sshfs user@192.168.1.100:/home/user ~/remote
+        fusermount -u ~/remote # cancel
+
+
+
+
+
+
+
+
+
+
+

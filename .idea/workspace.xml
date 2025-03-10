@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ebbd6c0-fec1-4320-8704-ffafc3703c71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1213" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_8_connect_to_network.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tset2" beforeDir="false" afterPath="$PROJECT_DIR$/tset2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1213" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_2_file_system_and_basic_command" beforeDir="false" afterPath="$PROJECT_DIR$/day_2_file_system_and_basic_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_3_managing_file_and_directory_advanced" beforeDir="false" afterPath="$PROJECT_DIR$/day_3_managing_file_and_directory_advanced.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_4_process_and_system_monitor" beforeDir="false" afterPath="$PROJECT_DIR$/day_4_process_and_system_monitor.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_5_managing_user_and_group" beforeDir="false" afterPath="$PROJECT_DIR$/day_5_managing_user_and_group.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_6_managing_packege" beforeDir="false" afterPath="$PROJECT_DIR$/day_6_managing_packege.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_7_shell_scrept_basic" beforeDir="false" afterPath="$PROJECT_DIR$/day_7_shell_scrept_basic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_8_connect_to_network" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day_9_Cron_and_log_management.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tset2" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +56,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
